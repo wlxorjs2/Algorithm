@@ -1,8 +1,12 @@
-    public class Main {
+import java.util.Scanner;
+
+public class Main {
         public static void main(String[] args) {
-            System.out.println("4");
-            System.out.println("wlxorjs2");
+            Scanner scanner = new Scanner(System.in);
+            int n = scanner.nextInt();
 
+            for (int i = 0; i < n; i++) {
+                System.out.println(String.format("Hello World, Judge %d!", (i+1)));
+            }
         }
-
 }
